@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/typecho-1.2-467b96.svg?style=flat-square)
 ![](https://img.shields.io/badge/AmazeUI-2.4.2-10a0ea.svg?style=flat-square)
 ![](https://img.shields.io/badge/LICENSE-MIT-brightgreen.svg?style=flat-square)
-![](https://img.shields.io/badge/update-2019.1.27-orange.svg?style=flat-square)
+![](https://img.shields.io/badge/update-2019.1.30-orange.svg?style=flat-square)
 
 ## 项目结构
 
@@ -66,7 +66,7 @@
 
 ## 爬虫的使用方法
 
-**爬虫与能否使用这个项目无直接关系，若您没有这个需求请或没有python与php相关基础请不要尝试**
+**爬虫与能否使用这个项目无直接关系，若您没有这个需求或没有python与php相关基础请不要尝试**
 
 **为了保证洛谷的服务器稳定和您的账号与IP安全，请不要删除爬虫的停顿相关代码！**
 
@@ -107,6 +107,10 @@ https://llf0703.com/luogu.php?id=
 ## TODO
 
 - [ ] SPOJ,Codeforces,AtCoder的支持
+
+## Update
+
+2019.1.30：添加对自定义字段的验证，不会出现不写字段而有尚无评定tag的情况。
 
 ## LICENSE
 

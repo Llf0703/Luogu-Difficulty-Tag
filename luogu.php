@@ -9167,6 +9167,12 @@ $id['UVA13290']="0";
 $id['UVA13291']="0";
 $id['UVA13292']="0";
 
+$id['T32219']="7";
+
+$lg=$this->fields->luogu;
+
+if (isset($lg)) {
+
 $dif=$id[$this->fields->luogu];
 ?>
 
@@ -9186,4 +9192,5 @@ $dif=$id[$this->fields->luogu];
     <span class="am-badge am-radius lg-bg-purple">省选/NOI-</span>
 <?php }else if ($dif==7){?>
     <span class="am-badge am-radius lg-bg-bluedark">NOI/NOI+/CTSC</span>
+<?php }?>
 <?php }?>
