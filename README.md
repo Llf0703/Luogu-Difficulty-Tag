@@ -4,20 +4,18 @@
 ![](https://img.shields.io/badge/typecho-1.2-467b96.svg?style=flat-square)
 ![](https://img.shields.io/badge/AmazeUI-2.4.2-10a0ea.svg?style=flat-square)
 ![](https://img.shields.io/badge/LICENSE-MIT-brightgreen.svg?style=flat-square)
-![](https://img.shields.io/badge/update-2019.1.30-orange.svg?style=flat-square)
+![](https://img.shields.io/badge/update-2019.4.14-orange.svg?style=flat-square)
 
 ## 项目结构
 
 ```
 .
+├── luogu.py
 ├── luogu.php
 ├── README.md
 ├── LICENSE
 ├── css
     └── luogu.css
-├── pre
-    ├── luogu.py
-    └── process.cpp
 └── api
     └── luogu.php
 ```
@@ -70,8 +68,8 @@
 
 **为了保证洛谷的服务器稳定和您的账号与IP安全，请不要删除爬虫的停顿相关代码！**
 
-1. 直接运行``luogu.py``，会自动生成``luogu.txt``
-2. 运行``process.cpp``，会生成``luogu.php``
+1. 直接运行``luogu.py``，会自动生成``luogu.php``
+2. 将仓库中``luogu.php``尾部复制到生成的``luogu.php``中即可
 
 其中``luogu.php``全是题号与难度对应的数组，关于typecho自定义字段的查询请参考项目中``luogu.php``；关于通过GET获取数据并返回相应按钮请参考``api/luogu.php``。
 
@@ -111,6 +109,7 @@ https://llf0703.com/luogu.php?id=
 ## Update
 
 2019.1.30：添加对自定义字段的验证，不会出现不写字段而有尚无评定tag的情况。
+2019.4.14：增强爬虫鲁棒性，更新数据。
 
 ## LICENSE
 
