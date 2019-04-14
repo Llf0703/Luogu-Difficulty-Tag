@@ -20,7 +20,7 @@
     └── luogu.php
 ```
 
-``luogu.php``是主体文件，``pre/``是预处理代码所在文件夹，``api/``是api所在文件夹。
+``luogu.php``是主体文件，``luogu.py``是爬虫，``api/``是api所在文件夹。
 
 ## 使用方法
 
@@ -104,11 +104,13 @@ https://llf0703.com/luogu.php?id=
 
 ## TODO
 
+- [ ] Mysql部署版本
 - [ ] SPOJ,Codeforces,AtCoder的支持
 
 ## Update
 
 2019.1.30：添加对自定义字段的验证，不会出现不写字段而有尚无评定tag的情况。
+
 2019.4.14：增强爬虫鲁棒性，更新数据。
 
 ## LICENSE
